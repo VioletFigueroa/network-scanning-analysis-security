@@ -34,9 +34,19 @@ Network administration and digital forensics project featuring network scanning,
 - XML/PDF reporting formats
 
 ## Files Included
-- [Cybersecurity Executive Summary.pdf](Cybersecurity%20Executive%20Summary.pdf) - Executive report
-- [Cybersecurity Executive Summary.md](Cybersecurity%20Executive%20Summary.md) - Report in Markdown
-- [nmap scan.txt](nmap%20scan.txt) - Network scan results
-- [202411112327 nmap -T4 -A -v 10.0.2.0_24.xml](202411112327%20nmap%20-T4%20-A%20-v%2010.0.2.0_24.xml) - Detailed nmap output
-- [wireshark p1 scan.pcapng](wireshark%20p1%20scan.pcapng) - Network traffic capture
-- [network-administration.md](network-administration.md) - Extended documentation
+
+**Main Documentation:**
+- [Cybersecurity Executive Summary.pdf](Cybersecurity%20Executive%20Summary.pdf) - Executive report (PDF format)
+- [Cybersecurity Executive Summary.md](Cybersecurity%20Executive%20Summary.md) - Report in Markdown format for easy viewing
+- [network-administration.md](network-administration.md) - Extended project documentation
+
+**Network Scanning & Analysis Results:**
+- [202411112327 nmap -T4 -A -v 10.0.2.0_24.xml](202411112327%20nmap%20-%20T4%20-%20A%20-%20v%2010.0.2.0_24.xml) - Detailed nmap scan results in XML format
+- [nmap scan.txt](nmap%20scan.txt) - Network scan results in text format
+- [wireshark p1 scan.pcapng](wireshark%20p1%20scan.pcapng) - Network traffic capture file for analysis
+
+**Additional Reports & Documentation:**
+- [Network Administration.pdf](Network%20Administration.pdf) - Comprehensive network administration report
+- [Network Administration.odt](Network%20Administration.odt) - Full documentation in OpenDocument format
+- [Network Administration P1 data.odt](Network%20Administration%20P1%20data.odt) - Phase 1 data and analysis
+- [Compass _ Network Administration __ Reader View.pdf](Compass%20_%20Network%20Administration%20__%20Reader%20View.pdf) - Compass reader view documentation
