@@ -3,9 +3,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/VioletFigueroa/network-scanning-analysis-security?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/VioletFigueroa/network-scanning-analysis-security?style=flat-square)
 ![License](https://img.shields.io/badge/license-Educational-blue?style=flat-square)
-![Release](https://img.shields.io/github/v/release/VioletFigueroa/network-scanning-analysis-security?style=flat-square)
 
-**Quick Links:** [Documentation](README.md) | [Security Policy](SECURITY.md) | [Contributing](CONTRIBUTING.md) | [Release](https://github.com/VioletFigueroa/network-scanning-analysis-security/releases/tag/v1.0.0)
+**Quick Links:** [Documentation](README.md) | [Security Policy](SECURITY.md) | [Contributing](CONTRIBUTING.md)
 
 ---
 
