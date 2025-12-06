@@ -1,11 +1,3 @@
----
-title: "Network Administration & Forensics"
-date: 2025-11-22
-layout: "single"
-draft: false
-tags: [network administration, forensics, nmap, wireshark, executive summary]
-summary: "Network administration and digital forensics project featuring network scanning, analysis, and executive reporting. Includes technical and executive-level documentation."
----
 
 
 **Executive Summary:**
@@ -15,11 +7,11 @@ This project demonstrates network administration and digital forensics skills, i
 
 ## Project Deliverables
 
-- [Technical Report (PDF)](/projects/network-administration/Network%20Administration.pdf)
-- [Executive Summary (PDF)](/projects/network-administration/Cybersecurity%20Executive%20Summary.pdf)
-- [Network Administration Data (ODT)](/projects/network-administration/Network%20Administration%20P1%20data.odt)
-- [Nmap Scan Results (TXT)](/projects/network-administration/nmap%20scan.txt)
-- [Wireshark Capture (PCAPNG)](/projects/network-administration/wireshark%20p1%20scan.pcapng)
+- [Technical Report (PDF)](./Network%20Administration.pdf)
+- [Executive Summary (PDF)](./Cybersecurity%20Executive%20Summary.pdf)
+- [Network Administration Data (ODT)](./Network%20Administration%20P1%20data.odt)
+- [Nmap Scan Results (TXT)](./nmap%20scan.txt)
+- [Wireshark Capture (PCAPNG)](./wireshark%20p1%20scan.pcapng)
 
 ---
 

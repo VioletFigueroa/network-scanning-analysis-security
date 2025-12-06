@@ -1,7 +1,3 @@
----
-draft: true
-tags: ["project", "documentation"]
----
 
 #
 
@@ -84,21 +80,25 @@ I started by turning on each of the virtual machines. I used cmd **ipconfig** (H
 I started by opening Wireshark (Warnicke & Lamping, 2024\) and nmap (Lyon, 2009\) on my Kali Linux VM. I turned on Wireshark network traffic capture. I ran the following nmap command using Zenmap (Lyon, 2009): **nmap \-T4 \-A \-v 10.0.2.0/24**
 This scan searched the virtual network and detected the 3 machines that were in the scope of the assignment. However, it also detected local services running on my devices that were outside the scope of the assignment. After confirming in an assistance request that the scope was only the 3 machines, I ran intensive scans on each of the 3 machines inside the scope 1 at a time.
 I started by scanning the the Windows 11 virtual machine using **nmap \-T4 \-A \-v 10.0.2.1/24**. Device Host Name, WINDOWS11-DESKT, was located in the nmap scan in the HTTP header
-***“http-title: Welcome | PRTG Network Monitor (WINDOWS11-DESKT)”***
-![Terminal output showing nmap network scan results with host names and open ports](/images/projects/network-administration/image1.png)
+***"http-title: Welcome | PRTG Network Monitor (WINDOWS11-DESKT)"***
+
+![Terminal output showing nmap network scan results with host names and open ports](./image1.png)
 Fig. 1: The MAC-Address was listed under the host details tab of the Zenmap GUI, in the addresses section.
-![nmap scan results displaying detected host information and system details from network sweep](/images/projects/network-administration/image2.png)
+
+![nmap scan results displaying detected host information and system details from network sweep](./image2.png)
 Fig 2\. The nmap scan host details identify it as Windows 10 1703, but checking the machine device information lists it as Windows 11 Home 23H2.
-![Network topology diagram illustrating host relationships and scan findings](/images/projects/network-administration/image3.png)
+
+![Network topology diagram illustrating host relationships and scan findings](./image3.png)
 
 Fig 3\. The ARP ping scan information was located at the start of the nmap output.
 
 I used the same methods to acquire the information on the Linux Server.
 For the Kali server, I used Linux commands, such as **ip a** (Mitchel & Novotny, 2022). The nmap scans did not show the information as it was the machine running the scans.
 
-![System configuration results from network administration tools and diagnostics](/images/projects/network-administration/image4.png)
+![System configuration results from network administration tools and diagnostics](./image4.png)
 Fig 4\. This is the current topology map for the network. All devices on the network have access to each other because it is arranged as a flat network.
-![Current network topology map showing connected systems and infrastructure layout](/images/projects/network-administration/image5.png)
+
+![Current network topology map showing connected systems and infrastructure layout](./image5.png)
 Fig 5\. The screenshot of Wireshark here shows that the Windows nmap scan was primarily done using TCP at the Transport Layer. The query of the Domain Name System (DNS) was done at the Application Layer. (Warnicke & Lamping, 2024\)
 
 ##
