@@ -8,6 +8,15 @@
 
 ---
 
+**How to view artifacts:** Executive view in `Cybersecurity Executive Summary.pdf`; technical detail in `network-administration.md` and `Network Administration.pdf`.
+
+**Result snapshot:** Mapped flat network, identified exposed services, and provided segmentation roadmap to reduce blast radius.
+
+**Quick review:**
+- Docs: `Cybersecurity Executive Summary.pdf` (exec), `network-administration.md` (detail)
+- Evidence: `nmap scan.txt`, `wireshark p1 scan.pcapng`
+- Start with: Summary PDF, then the nmap results section in `network-administration.md`
+
 ## Overview
 Network administration and digital forensics project featuring network scanning, traffic analysis, and executive reporting. This project demonstrates network reconnaissance techniques, vulnerability identification, and comprehensive security documentation for stakeholders.
 
@@ -40,6 +49,12 @@ Network administration and digital forensics project featuring network scanning,
 - PCAP file analysis - Network forensics
 - Network diagramming tools (draw.io, Visio)
 - XML/PDF reporting formats
+
+**Data handling:** Scans/pcaps are lab-scope and sanitized; no production credentials or PII are stored.
+
+## Lessons Learned
+- Flat networks amplify risk; quick wins are segmentation and minimal service exposure.
+- Pairing exec summaries with raw scans keeps both leadership and engineers aligned.
 
 ## Files Included
 
